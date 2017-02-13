@@ -38,8 +38,8 @@ before_install:
 # * bundler gem
 # * Ruby gems required for brew-cask
 install:
-  - echo gem_install_bundler; sudo "/System/Library/Frameworks/Ruby.framework/Versions/${CASK_RUBY_TEST_VERSION}/usr/bin/gem" install bundler --bindir="/System/Library/Frameworks/Ruby.framework/Versions/${CASK_RUBY_TEST_VERSION}/usr/bin"
-  - echo bundle; sudo "/System/Library/Frameworks/Ruby.framework/Versions/${CASK_RUBY_TEST_VERSION}/usr/bin/bundle" --system
+  - echo gem_install_bundler; "/System/Library/Frameworks/Ruby.framework/Versions/${CASK_RUBY_TEST_VERSION}/usr/bin/gem" install bundler --bindir="/System/Library/Frameworks/Ruby.framework/Versions/${CASK_RUBY_TEST_VERSION}/usr/bin"
+  - echo bundle; "/System/Library/Frameworks/Ruby.framework/Versions/${CASK_RUBY_TEST_VERSION}/usr/bin/bundle" --system
   - brew install caskroom/cask/brew-cask
 
 # informational feedback
