@@ -1,8 +1,8 @@
 cask 'palemoon' do
-  version '26.3.2'
-  sha256 'ace6061d34bd14883db383857c1668fe38c2ebe9d5560d7bda04aa5adeedce61'
+  version '27.3.0'
+  sha256 '423ec593ba6e8c5d2ccc034b3240e5bc783e46ce0ab9b01c87806b04aa0b2f28'
 
-  url "http://mac.palemoon.org/dist/palemoon-#{version}-128-debug.en-US.mac64.dmg"
+  url "http://mac.palemoon.org/dist/palemoon-#{version}.mac64.dmg"
   name 'Pale Moon'
   homepage 'http://forum.palemoon.org/viewforum.php?f=41'
   license :oss
