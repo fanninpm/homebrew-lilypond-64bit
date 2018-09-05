@@ -5,12 +5,11 @@ cask 'dwarf-fortress-macnewbie' do
   url "http://dffd.bay12games.com/download.php?id=7922&f=Macnewbie_#{version}.dmg"
   name 'MacNewbie Dwarf Fortress'
   homepage 'http://www.bay12forums.com/smf/index.php?topic=128960'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   suite 'Macnewbie'
 
   caveats do
-    puts <<-EOS.undent
+    puts <<~EOS
       The cask '#{@cask}' depends on the casks java and xquartz so
       in order to use '#{@cask}' do 'brew cask install java xquartz'
     EOS

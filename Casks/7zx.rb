@@ -9,11 +9,10 @@ cask '7zx' do
   url "https://www.macupdate.com/download/20526/7zX_#{version}.-5003b6dcbb4d8.dmg"
   name '7zX'
   homepage 'https://www.macupdate.com/app/mac/20526/7zx'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   app '7zX.app'
 
-  caveats <<-EOS.undent
+  caveats <<~EOS
     Warning: #{token} has been abandoned by its author, and the
     vendor homepage is defunct.  This Cask downloads an untrusted
     copy from an alternative source.
