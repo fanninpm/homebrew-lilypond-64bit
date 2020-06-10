@@ -1,4 +1,4 @@
-cask 'lilypond-unofficial' do
+cask 'lilypond-64-bit' do
   version '2.20.0,20200311175017'
   sha256 '655bb00970279ae72d3c7dfe19186db9025f0cb5eae7e3c4485c1b3b1116bc69'
 
