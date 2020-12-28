@@ -14,7 +14,6 @@ cask 'lilypond-64-bit' do
                'abc2ly',
                'convert-ly',
                'etf2ly',
-               'gs',
                'lilymidi',
                'lilypond',
                'lilypond-book',
